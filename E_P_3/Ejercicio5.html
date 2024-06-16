@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVALUACION PERMANENTE 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="img/logo-amarillo2.png" height="80px">
+        </header>
+        <p>EVALUACION PERMANENTE 3</p>
+        <div id="contenedor">
+            <img src="img/Ejercicio_5.jpg" alt="ejercicio5">
+        </div>
+        <div id="solucion">
+            <script>
+                var i=1;
+                n=parseInt(prompt("Ingrese la medida de el lado del cuadrado que desea dibujar"));
+                do {
+                    var j=1;
+                    do {
+                        document.write('<div id="circulo"></div>');
+                        j++;
+                        } while (j<=n)
+                        document.write('<div style="clear:both"></div>');
+                        i++;
+                    } while (i<=n)
+            </script>
+        </div>
+    </main>
+</body>
+</html>
